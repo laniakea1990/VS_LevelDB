@@ -10,6 +10,153 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\leveldb-master\db\autocompact_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\builder.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\c.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\corruption_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\c_test.c" />
+    <ClCompile Include="..\source\leveldb-master\db\dbformat.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\dbformat_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\db_bench.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\db_impl.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\db_iter.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\db_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\dumpfile.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\fault_injection_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\filename.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\filename_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\leveldb_main.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\log_reader.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\log_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\log_writer.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\memtable.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\repair.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\skiplist_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\table_cache.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\version_edit.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\version_edit_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\version_set.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\version_set_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\write_batch.cc" />
+    <ClCompile Include="..\source\leveldb-master\db\write_batch_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\doc\bench\db_bench_sqlite3.cc" />
+    <ClCompile Include="..\source\leveldb-master\doc\bench\db_bench_tree_db.cc" />
+    <ClCompile Include="..\source\leveldb-master\helpers\memenv\memenv.cc" />
+    <ClCompile Include="..\source\leveldb-master\helpers\memenv\memenv_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\issues\issue178_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\issues\issue200_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\port\port_posix.cc" />
+    <ClCompile Include="..\source\leveldb-master\table\block.cc" />
+    <ClCompile Include="..\source\leveldb-master\table\block_builder.cc" />
+    <ClCompile Include="..\source\leveldb-master\table\filter_block.cc" />
+    <ClCompile Include="..\source\leveldb-master\table\filter_block_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\table\format.cc" />
+    <ClCompile Include="..\source\leveldb-master\table\iterator.cc" />
+    <ClCompile Include="..\source\leveldb-master\table\merger.cc" />
+    <ClCompile Include="..\source\leveldb-master\table\table.cc" />
+    <ClCompile Include="..\source\leveldb-master\table\table_builder.cc" />
+    <ClCompile Include="..\source\leveldb-master\table\table_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\table\two_level_iterator.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\arena.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\arena_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\bloom.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\bloom_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\cache.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\cache_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\coding.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\coding_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\comparator.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\crc32c.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\crc32c_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\env.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\env_posix.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\env_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\filter_policy.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\hash.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\hash_test.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\histogram.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\logging.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\options.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\status.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\testharness.cc" />
+    <ClCompile Include="..\source\leveldb-master\util\testutil.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\leveldb-master\db\builder.h" />
+    <ClInclude Include="..\source\leveldb-master\db\dbformat.h" />
+    <ClInclude Include="..\source\leveldb-master\db\db_impl.h" />
+    <ClInclude Include="..\source\leveldb-master\db\db_iter.h" />
+    <ClInclude Include="..\source\leveldb-master\db\filename.h" />
+    <ClInclude Include="..\source\leveldb-master\db\log_format.h" />
+    <ClInclude Include="..\source\leveldb-master\db\log_reader.h" />
+    <ClInclude Include="..\source\leveldb-master\db\log_writer.h" />
+    <ClInclude Include="..\source\leveldb-master\db\memtable.h" />
+    <ClInclude Include="..\source\leveldb-master\db\skiplist.h" />
+    <ClInclude Include="..\source\leveldb-master\db\snapshot.h" />
+    <ClInclude Include="..\source\leveldb-master\db\table_cache.h" />
+    <ClInclude Include="..\source\leveldb-master\db\version_edit.h" />
+    <ClInclude Include="..\source\leveldb-master\db\version_set.h" />
+    <ClInclude Include="..\source\leveldb-master\db\write_batch_internal.h" />
+    <ClInclude Include="..\source\leveldb-master\helpers\memenv\memenv.h" />
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\c.h" />
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\cache.h" />
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\comparator.h" />
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\db.h" />
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\dumpfile.h" />
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\env.h" />
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\filter_policy.h" />
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\iterator.h" />
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\options.h" />
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\slice.h" />
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\status.h" />
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\table.h" />
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\table_builder.h" />
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\write_batch.h" />
+    <ClInclude Include="..\source\leveldb-master\port\atomic_pointer.h" />
+    <ClInclude Include="..\source\leveldb-master\port\port.h" />
+    <ClInclude Include="..\source\leveldb-master\port\port_example.h" />
+    <ClInclude Include="..\source\leveldb-master\port\port_posix.h" />
+    <ClInclude Include="..\source\leveldb-master\port\thread_annotations.h" />
+    <ClInclude Include="..\source\leveldb-master\port\win\stdint.h" />
+    <ClInclude Include="..\source\leveldb-master\table\block.h" />
+    <ClInclude Include="..\source\leveldb-master\table\block_builder.h" />
+    <ClInclude Include="..\source\leveldb-master\table\filter_block.h" />
+    <ClInclude Include="..\source\leveldb-master\table\format.h" />
+    <ClInclude Include="..\source\leveldb-master\table\iterator_wrapper.h" />
+    <ClInclude Include="..\source\leveldb-master\table\merger.h" />
+    <ClInclude Include="..\source\leveldb-master\table\two_level_iterator.h" />
+    <ClInclude Include="..\source\leveldb-master\util\arena.h" />
+    <ClInclude Include="..\source\leveldb-master\util\coding.h" />
+    <ClInclude Include="..\source\leveldb-master\util\crc32c.h" />
+    <ClInclude Include="..\source\leveldb-master\util\hash.h" />
+    <ClInclude Include="..\source\leveldb-master\util\histogram.h" />
+    <ClInclude Include="..\source\leveldb-master\util\logging.h" />
+    <ClInclude Include="..\source\leveldb-master\util\mutexlock.h" />
+    <ClInclude Include="..\source\leveldb-master\util\posix_logger.h" />
+    <ClInclude Include="..\source\leveldb-master\util\random.h" />
+    <ClInclude Include="..\source\leveldb-master\util\testharness.h" />
+    <ClInclude Include="..\source\leveldb-master\util\testutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\source\leveldb-master\AUTHORS" />
+    <None Include="..\source\leveldb-master\build_detect_platform" />
+    <None Include="..\source\leveldb-master\CONTRIBUTING.md" />
+    <None Include="..\source\leveldb-master\doc\benchmark.html" />
+    <None Include="..\source\leveldb-master\doc\doc.css" />
+    <None Include="..\source\leveldb-master\doc\impl.html" />
+    <None Include="..\source\leveldb-master\doc\index.html" />
+    <None Include="..\source\leveldb-master\LICENSE" />
+    <None Include="..\source\leveldb-master\Makefile" />
+    <None Include="..\source\leveldb-master\NEWS" />
+    <None Include="..\source\leveldb-master\port\README" />
+    <None Include="..\source\leveldb-master\README.md" />
+    <None Include="..\source\leveldb-master\TODO" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\source\leveldb-master\doc\log_format.txt" />
+    <Text Include="..\source\leveldb-master\doc\table_format.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{67BED926-FFC7-4804-9BB2-E02A2026A1C3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -77,8 +224,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

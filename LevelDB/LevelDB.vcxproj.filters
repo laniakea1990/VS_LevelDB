@@ -13,5 +13,466 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\db">
+      <UniqueIdentifier>{84bbaa17-5ae8-4dbe-be93-6dcb80caa18d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\issues">
+      <UniqueIdentifier>{f020b6eb-ecf0-4980-a5d5-d679d1642320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\doc">
+      <UniqueIdentifier>{7ff0114e-3cf3-400f-a905-722dd376d0df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\doc\bench">
+      <UniqueIdentifier>{c0d7e7f9-52d6-4ef7-bed9-f3cc00fbbeba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\helpers">
+      <UniqueIdentifier>{313f6703-ca1c-428f-bbbf-16977163c0d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\helpers\memenv">
+      <UniqueIdentifier>{f1e14f02-e4c3-4aa5-a649-cbcafc710248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\include">
+      <UniqueIdentifier>{49a0f9f2-83cb-4196-90ca-f0510167ad22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\include\leveldb">
+      <UniqueIdentifier>{b6c4de92-3c39-4e13-9ec3-6dc4313fca4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\port">
+      <UniqueIdentifier>{85f7c52e-eee6-4a50-bddc-a93340d83e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\port\win">
+      <UniqueIdentifier>{bd043fbf-1bbe-4775-85d5-4296bd894bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\table">
+      <UniqueIdentifier>{4366a8db-14b2-499f-b356-b872627fcd18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util">
+      <UniqueIdentifier>{8cd0d0f3-08c8-4510-b118-78370c20bd05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\leveldb-master\db\autocompact_test.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\builder.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\c.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\c_test.c">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\corruption_test.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\db_bench.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\db_impl.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\db_iter.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\db_test.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\dbformat.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\dbformat_test.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\dumpfile.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\fault_injection_test.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\filename.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\filename_test.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\leveldb_main.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\log_reader.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\log_test.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\log_writer.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\memtable.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\repair.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\skiplist_test.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\table_cache.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\version_edit.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\version_edit_test.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\version_set.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\version_set_test.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\write_batch.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\db\write_batch_test.cc">
+      <Filter>源文件\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\issues\issue178_test.cc">
+      <Filter>源文件\issues</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\issues\issue200_test.cc">
+      <Filter>源文件\issues</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\doc\bench\db_bench_sqlite3.cc">
+      <Filter>源文件\doc\bench</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\doc\bench\db_bench_tree_db.cc">
+      <Filter>源文件\doc\bench</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\helpers\memenv\memenv.cc">
+      <Filter>源文件\helpers\memenv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\helpers\memenv\memenv_test.cc">
+      <Filter>源文件\helpers\memenv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\port\port_posix.cc">
+      <Filter>源文件\port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\table\block.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\table\block_builder.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\table\filter_block.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\table\filter_block_test.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\table\format.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\table\iterator.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\table\merger.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\table\table.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\table\table_builder.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\table\table_test.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\table\two_level_iterator.cc">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\arena.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\arena_test.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\bloom.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\bloom_test.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\cache.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\cache_test.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\coding.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\coding_test.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\comparator.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\crc32c.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\crc32c_test.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\env.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\env_posix.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\env_test.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\filter_policy.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\hash.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\hash_test.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\histogram.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\logging.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\options.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\status.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\testharness.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\leveldb-master\util\testutil.cc">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\leveldb-master\db\builder.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\db\db_impl.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\db\db_iter.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\db\dbformat.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\db\filename.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\db\log_format.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\db\log_reader.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\db\log_writer.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\db\memtable.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\db\skiplist.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\db\snapshot.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\db\table_cache.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\db\version_edit.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\db\version_set.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\db\write_batch_internal.h">
+      <Filter>源文件\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\helpers\memenv\memenv.h">
+      <Filter>源文件\helpers\memenv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\c.h">
+      <Filter>头文件\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\cache.h">
+      <Filter>头文件\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\comparator.h">
+      <Filter>头文件\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\db.h">
+      <Filter>头文件\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\dumpfile.h">
+      <Filter>头文件\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\env.h">
+      <Filter>头文件\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\filter_policy.h">
+      <Filter>头文件\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\iterator.h">
+      <Filter>头文件\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\options.h">
+      <Filter>头文件\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\slice.h">
+      <Filter>头文件\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\status.h">
+      <Filter>头文件\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\table.h">
+      <Filter>头文件\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\table_builder.h">
+      <Filter>头文件\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\include\leveldb\write_batch.h">
+      <Filter>头文件\include\leveldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\port\atomic_pointer.h">
+      <Filter>源文件\port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\port\port.h">
+      <Filter>源文件\port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\port\port_example.h">
+      <Filter>源文件\port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\port\port_posix.h">
+      <Filter>源文件\port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\port\thread_annotations.h">
+      <Filter>源文件\port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\port\win\stdint.h">
+      <Filter>源文件\port\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\table\block.h">
+      <Filter>源文件\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\table\block_builder.h">
+      <Filter>源文件\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\table\filter_block.h">
+      <Filter>源文件\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\table\format.h">
+      <Filter>源文件\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\table\iterator_wrapper.h">
+      <Filter>源文件\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\table\merger.h">
+      <Filter>源文件\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\table\two_level_iterator.h">
+      <Filter>源文件\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\util\arena.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\util\coding.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\util\crc32c.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\util\hash.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\util\histogram.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\util\logging.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\util\mutexlock.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\util\posix_logger.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\util\random.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\util\testharness.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\leveldb-master\util\testutil.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\source\leveldb-master\doc\benchmark.html">
+      <Filter>源文件\doc</Filter>
+    </None>
+    <None Include="..\source\leveldb-master\doc\doc.css">
+      <Filter>源文件\doc</Filter>
+    </None>
+    <None Include="..\source\leveldb-master\doc\impl.html">
+      <Filter>源文件\doc</Filter>
+    </None>
+    <None Include="..\source\leveldb-master\doc\index.html">
+      <Filter>源文件\doc</Filter>
+    </None>
+    <None Include="..\source\leveldb-master\port\README">
+      <Filter>源文件\port</Filter>
+    </None>
+    <None Include="..\source\leveldb-master\AUTHORS">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\source\leveldb-master\build_detect_platform">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\source\leveldb-master\CONTRIBUTING.md">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\source\leveldb-master\LICENSE">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\source\leveldb-master\Makefile">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\source\leveldb-master\NEWS">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\source\leveldb-master\README.md">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\source\leveldb-master\TODO">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\source\leveldb-master\doc\log_format.txt">
+      <Filter>源文件\doc</Filter>
+    </Text>
+    <Text Include="..\source\leveldb-master\doc\table_format.txt">
+      <Filter>源文件\doc</Filter>
+    </Text>
   </ItemGroup>
 </Project>
